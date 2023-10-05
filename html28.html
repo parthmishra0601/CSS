@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseusdo selector</title>
+    <style>
+        body{
+            background-color: aqua;
+            background-image: url(https://source.unsplash.com/ivfp_yxZuYQ) ;
+    
+        }
+        .container{
+            
+            background-color:aqua ;
+            border: 3px solid red;
+            width: 666px;
+            padding: 13px;
+            margin: 13px auto;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+
+                
+            }
+            a:hover{
+                color: black;
+                 background-color: red;
+                 font-size: small;
+               
+                
+                
+
+            }
+            a:visited{
+                background-color: blue;
+            }
+            a:active{
+                background-color: red;
+            }
+            .btn{
+                border: none;
+                background-color: red;
+                padding: 3px;
+                cursor: pointer;
+                
+            }
+            
+            
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h1>Grocery</h1>
+        <p>This is a grocery store</p>
+        <a href="https://ww.google.com">Read More</a>
+        <button class="btn">Contact us</button>
+    </div>
+    
+</body>
+</html>
